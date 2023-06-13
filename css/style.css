@@ -1,0 +1,55 @@
+@font-face {font-family: "Alfons Display W00 Black P";
+    src:url("font/@font-face/fe6e7a1260bb76e810febf5fbdf24ed5.woff") format("woff"), /* chrome、firefox */
+  }
+*{
+    font-family: Alfons;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#slidebar{
+    background-color: rgb(204, 75, 44);
+}
+.item-list{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.item-list a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px;
+}
+img#avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.list-group-item {
+    border: none!important;
+}
+i.fa-brands{
+    font-size: 20px;
+}
+div.col-9{
+    margin-top: 3%;
+}
+.offcanvas-body {
+    text-align: center;
+}
+div.offcanvas-body ul.list-group{
+    margin-top:0%;
+}
